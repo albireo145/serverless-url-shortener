@@ -92,6 +92,7 @@
       "apiVersion": "2016-09-01",
       "name": "[variables('hostingPlanName')]",
       "location": "[resourceGroup().location]",
+      "kind": "linux",
       "sku": {
         "name": "S1",
         "tier": "Standard"
